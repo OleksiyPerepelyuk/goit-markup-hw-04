@@ -101,6 +101,23 @@ img {
     color: #2e2f42;
 }
 
+.current {
+    position: relative;
+    color: значення;
+}
+
+.nav-link.current::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    display: block;
+    width: 100%;
+    height: 4px;
+    border-radius: 2px;
+    background-color: #404bbf;
+}
+
 .nav-link {
     display: block;
     padding: 24px 0;
@@ -140,8 +157,11 @@ img {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)), 
         url(../images/people-office\ 1.jpg);
+    background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    max-width: 1440px;
+    margin: 0 auto;
     }
 
 .hero-title {
@@ -226,7 +246,7 @@ img {
     display: flex;
     align-items: center;
     gap: 24px;
-    }
+}
 
 .team-item {
     border-radius: 0px 0px 4px 4px;
