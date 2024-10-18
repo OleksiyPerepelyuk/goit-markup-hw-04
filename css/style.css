@@ -204,6 +204,14 @@ img {
    
 }
 
+.features-icon-box {
+    width: 264px;
+    height: 112px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
 .features-item{
     width: calc((100% - 3 * 24px) / 4);
 }
@@ -246,7 +254,7 @@ img {
     display: flex;
     align-items: center;
     gap: 24px;
-}
+    }
 
 .team-item {
     border-radius: 0px 0px 4px 4px;
@@ -275,6 +283,15 @@ img {
     color: #2e2f42;
 }
 
+.icon-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.team-soc-link {
+    fill: #4d5ae5;
+}
 
 .team-item-text {
     font-size: 16px;
