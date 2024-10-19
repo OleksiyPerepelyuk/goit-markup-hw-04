@@ -432,7 +432,23 @@ img {
     color: #f4f4fd;
 }
 
+.footer-logo:hover,
+.footer-logo:focus {
+    color: #404bbf;
+}
+
+.wrapper-footer {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
 .container-footer {
+    margin-right: 120px;
+    margin-left: 0;
+}
+
+.container-icon {
     
 }
 
@@ -466,8 +482,10 @@ img {
 
 .footer-icon-list {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 16px;
     
 }
 
